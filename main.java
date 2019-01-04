@@ -127,7 +127,7 @@ public class main {
           List s = New ArrayList();
           List s = new LinkedList();
 
-        - HashSet does not maintain insertion order, ArrayList does like TreeSet, but TreeSet does not allow duplicate
+        - HashSet does not maintain insertion order, ArrayList does, but TreeSet does not allow duplicate
           because all list (ArrayList, Linked List maintain order of insertion)
           sets does maintain order of insertion (Linkedhashset does)
         - ArrayList is indexed collection , you cad do .get(index) to retrieve a object. HashSet is a object based. Tt does .contains(object).
