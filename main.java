@@ -11,8 +11,11 @@ public class main {
              HashTable:
             - Uses key value pair
             - uses put to add vales.(table.put(key,val);
+            - The key is hashed and the hashcode used as a index where the value is stored         
             **Allows Duplicate
             ** Does not maintain insertion order
+            -For constructor and methods 
+            https://www.geeksforgeeks.org/hashtable-in-java/
 
             // different from Hashmap
             ** Does not allow null for both key and value
