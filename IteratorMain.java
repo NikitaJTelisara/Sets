@@ -39,10 +39,17 @@ public class IteratorMain {
         emp1.add(new Employee("niki2",3));
         emp1.add(new Employee("niki3",4));
 
-        Iterator<Employee> it2 = emp1.iterator();
-        while (it2.hasNext()){
-            System.out.print(it2.next().name);
-            System.out.print("\n");
+        HashMap<Integer,Employee> emp2 = new LinkedHashMap<Integer,Employee>(); // Maintains the insertion order, but no duplicates
+        emp2.put(1,new Employee("niki",1));
+        emp2.put(2,new Employee("niki1",2));
+        emp2.put(4,new Employee("niki2",3));
+        emp2.put(3,new Employee("niki3",4));
+
+        Set dd= emp2.keySet();
+        Iterator eee = dd.iterator();
+        while (eee.hasNext()){
+            System.out.println(emp2.get(eee.next()).name);
+
         }
     }
 }
