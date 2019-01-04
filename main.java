@@ -17,23 +17,28 @@ public class main {
             -For constructor and methods 
             https://www.geeksforgeeks.org/hashtable-in-java/
             
-            Few Methods() are:
+            Few Methods() of HashTable are, 
             
-            Hashtable t = table.clone() //copy table to t
-            table.clear() // clear table
+         
             table.equals(t) // compare
-            boolean =  table.contains(Object value);
-            boolean = table.containsKey();
-            boolean  = table.containsValue();
-            Set = table.keySet();
-            Set = table.entrySet();          
+            boolean =  table.contains(Object value);                
             table.computeIfAbsent("aa", k-100)
             table.putIfAbsent("aa", 100)
-            table.put("aa", 100)
-            table.putAll(Map t) // put all elemets from t to table
-            value object = table.get(key)
-            boolean  table.isEmpty()
-            table.remove(key)// remove a entry
+         
+            Hashtable t = table.clone() //copy table to t  =====in Hashmap()
+            table.clear() // clear table  =====in Hashmap()
+            boolean = table.containsKey();    =====in Hashmap()
+            boolean  = table.containsValue();     =====in Hashmap()
+            Set = table.keySet();    =====in Hashmap()
+            Set = table.entrySet();      =====in Hashmap()         
+            table.put("aa", 100)   =====in Hashmap()
+            table.putAll(Map t) // put all elemets from t to table   =====in Hashmap()
+            value object = table.get(key)   =====in Hashmap()
+            boolean  table.isEmpty()   =====in Hashmap()
+            table.remove(key)// remove a entry   =====in Hashmap()
+            
+            
+            
             Enumeration e  = table.elements()
                   while(e.hasMoreElements()){
                      print(e.nextElement();  // prints values
@@ -66,7 +71,12 @@ public class main {
         - uses put to add vales.(table.put(key,val);
         - Allows Duplicate
         - Does not maintain insertion order , LinkedHashMap maintains insertion order of the key .LinkedHashMap used more memory to maintain the order
-
+        
+        //extra methods
+         
+         s.values();
+         s.sixe();
+         
         HashMap<String,Integer> s1 = new LinkedHashMap<String,Integer>();
 
         //different from Hashtable
