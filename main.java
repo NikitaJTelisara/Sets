@@ -16,7 +16,36 @@ public class main {
             ** Does not maintain insertion order
             -For constructor and methods 
             https://www.geeksforgeeks.org/hashtable-in-java/
-
+            
+            Few Methods() are:
+            
+            Hashtable t = table.clone() //copy table to t
+            table.clear() // clear table
+            table.equals(t) // compare
+            boolean =  table.contains(Object value);
+            boolean = table.containsKey();
+            boolean  = table.containsValue();
+            Set = table.keySet();
+            Set = table.entrySet();          
+            table.computeIfAbsent("aa", k-100)
+            table.putIfAbsent("aa", 100)
+            table.put("aa", 100)
+            table.putAll(Map t) // put all elemets from t to table
+            value object = table.get(key)
+            boolean  table.isEmpty()
+            table.remove(key)// remove a entry
+            Enumeration e  = table.elements()
+                  while(e.hasMoreElements()){
+                     print(e.nextElement();  // prints values
+                  }
+                  
+           Enumeration e1  = table.keys();
+                  while(e1.hasMoreElements()){
+                     print(e1.nextElement();
+                  }
+                 
+           
+            
             // different from Hashmap
             ** Does not allow null for both key and value
             - Synchronized and thread safe, poor performance
