@@ -68,7 +68,7 @@ public class main {
 
         HashSet<String> s2 = new LinkedHashSet<String>();
 
-        // Different from Hashtable and HashSet
+        // Different from Hashtable and HashMap
         -  Does not Allow duplicate, it is used to maintain unique list
         -  Uses just one value
         -  Uses add instead of put (set.add();
