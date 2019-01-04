@@ -10,6 +10,10 @@ public class IteratorMain {
         list.add("teli");
 
         Iterator it = list.iterator();
+        //Iterator is used to iterate HashMap, HashSet, ArrayList and LinkedList
+        // Iterator has 3 methods   : hasNext(), next(), remove()
+        // Iterator it = list.iterator() // in enumeration it is .elements()
+        // Fail-fast , safer
 
         while (it.hasNext()) {
             System.out.println(it.next());
