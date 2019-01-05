@@ -103,11 +103,21 @@ public class main {
 
         HashSet
         same as Hashmap
+        -Implements set interface, hense duplicate is not allowed
         - Allows null keys
         - Not Synchronized and not thread safe .You can synchronize the using Collections.synchroinzedCollection()
          to make it read only, better performance
         - Does not maintain insertion order , LinkedHashSet does maintain order .LinkedHashSet uses more memory to maintain a link of order
-
+        
+        - Methods()
+        add()
+        clear()
+        clone()
+        contains()
+        remove()
+        isEmpty()
+        size()
+        
         HashSet<String> s2 = new LinkedHashSet<String>();
 
         // Different from Hashtable and HashMap
