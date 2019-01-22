@@ -52,7 +52,7 @@ public class main {
            
             
             // different from Hashmap
-            ** Does not allow null for both key and value
+          
             - Synchronized and thread safe, poor performance
 
             Hashtable table = new Hashtable<Integer, String>();
