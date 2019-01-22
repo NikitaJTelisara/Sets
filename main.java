@@ -11,6 +11,7 @@ public class main {
              HashTable:
             - Uses key value pair
             - uses put to add vales.(table.put(key,val);
+            - no null
             - The key is hashed and the hashcode used as a index where the value is stored         
             **Allows Duplicate
             ** Does not maintain insertion order
@@ -52,7 +53,7 @@ public class main {
            
             
             // different from Hashmap
-          
+           - does not allows null
             - Synchronized and thread safe, poor performance
 
             Hashtable table = new Hashtable<Integer, String>();
@@ -67,6 +68,7 @@ public class main {
             */
 
         /* HashMap
+        - allows null
         - Uses key value pair
         - uses put to add vales.(table.put(key,val);
         - Allows Duplicate
