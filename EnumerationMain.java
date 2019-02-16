@@ -4,13 +4,6 @@ import sun.awt.windows.ThemeReader;
 
 import java.util.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: NT030798
- * Date: 1/4/19
- * Time: 4:16 PM
- * To change this template use File | Settings | File Templates.
- */
 public class EnumerationMain {
     public static void main(String[] args){
         Hashtable<Integer, String> table = new Hashtable();
