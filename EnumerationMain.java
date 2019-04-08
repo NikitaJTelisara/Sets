@@ -19,6 +19,13 @@ public class EnumerationMain {
         while (enumeration.hasMoreElements()){
             System.out.println(enumeration.nextElement());
         }
+        
+        /*op prints values
+        ghi
+        def
+        abc
+
+        */
 
         Vector<String> v = new Vector<String>();
         v.add("niki");
