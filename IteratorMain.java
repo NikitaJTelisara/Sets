@@ -39,7 +39,7 @@ public class IteratorMain {
         emp1.add(new Employee("niki2",3));
         emp1.add(new Employee("niki3",4));
 
-        HashMap<Integer,Employee> emp2 = new LinkedHashMap<Integer,Employee>(); // Maintains the insertion order, but no duplicates
+        HashMap<Integer,Employee> emp2 = new LinkedHashMap<Integer,Employee>(); // Maintains the insertion order,
         emp2.put(1,new Employee("niki",1));
         emp2.put(2,new Employee("niki1",2));
         emp2.put(4,new Employee("niki2",3));
