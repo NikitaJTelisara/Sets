@@ -26,6 +26,10 @@ public class EnumerationMain {
         abc
 
         */
+        
+       /* Constructor:
+        Vector(): Creates a default vector of initial capacity is 10.
+        Vector(int size): Creates a vector whose initial capacity is specified by size.*/
 
         Vector<String> v = new Vector<String>();
         v.add("niki");
